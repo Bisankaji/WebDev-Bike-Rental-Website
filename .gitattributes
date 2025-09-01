@@ -1,0 +1,5 @@
+# Force PHP files to be recognized as PHP (not Hack)
+*.php linguist-language=PHP
+
+# Ignore dependencies from language stats
+node_modules/* linguist-vendored
